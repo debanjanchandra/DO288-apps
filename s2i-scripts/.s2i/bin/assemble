@@ -22,7 +22,7 @@ echo "---> Installing application source"
 
 cp -Rf /tmp/src/*.html ./
 
-DATE="$(date +%F)
+DATE="$(date +%F)"
 
 echo "debanjan $DATE surabh here" >>> ./info.html
 
