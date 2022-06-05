@@ -20,7 +20,7 @@ echo "---> Installing application source"
 
 
 
-cp -RF /tmp/usr/*.html ./
+cp -Rf /tmp/src/*.html ./
 
 DATE="$(date +%F)
 
