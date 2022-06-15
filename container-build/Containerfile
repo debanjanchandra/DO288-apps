@@ -1,6 +1,7 @@
 # Use the httpd-parent image as base
 FROM quay.io/redhattraining/httpd-parent
 
+ONBUILD COPY src/ /var/www/html/
 LABEL io.openshift.expose-services="8080:http" && \
       io.openshift.tags="apache, httpd"
 
