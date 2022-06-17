@@ -24,7 +24,7 @@ cp -Rf /tmp/src/*.html ./
 
 DATE=$"{date +%F}"
 
-echo "...this page edited by Debanjan on ${DATE} ...."
+echo "...this page edited by Debanjan on ${DATE} ...." >> ./info.html
 
 
 ######## CUSTOMIZATION ENDS HERE ############
