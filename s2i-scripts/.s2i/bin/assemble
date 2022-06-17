@@ -22,7 +22,7 @@ echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.htm
 
 cp -Rf /tmp/src/*.html ./
 
-DATE=(date +%F)
+DATE="(date +%F)"
 
 echo "...this page edited by Debanjan on ${DATE} ...." >> ./info.html
 
