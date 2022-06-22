@@ -19,12 +19,11 @@ echo "---> Creating info page"
 #echo "Page built on $DATE" >> ./info.html
 echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.html
 
-
 cp -Rf /tmp/src/*.html ./
 
-DATE=`(date "+%F")`
+date=`(date "+%F")`
 
-echo "Hello ...this page edited by Debanjan on ${DATE} ...." >> ./info.html
+echo "..... i am here since ......$date..." >> ./info.html
 
 
 ######## CUSTOMIZATION ENDS HERE ############
